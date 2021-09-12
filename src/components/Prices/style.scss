@@ -1,0 +1,50 @@
+.prices {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__caption {
+    margin-bottom: 30px;
+  }
+
+  &__label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4F4E57;
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    border: 2px solid #34BC48;
+    border-radius: 8px;
+    min-height: 40px;
+    min-width: 270px;
+    max-width: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    background: transparent;
+    color: #909090;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  &__inputs {
+    display: flex;
+  }
+
+  &__input-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  &__input-result {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: #909090;
+  }
+}
