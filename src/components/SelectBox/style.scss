@@ -1,0 +1,76 @@
+.select-box {
+  position: relative;
+
+  &__caption {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    position: relative;
+    cursor: pointer;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 7px;
+      height: 2px;
+      background: #fff;
+      transform: rotate(45deg);
+      right: -15px;
+      top: 7px;
+    }
+
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 7px;
+      height: 2px;
+      background: #fff;
+      transform: rotate(-45deg);
+      right: -18px;
+      top: 7px;
+    }
+
+    .select-box.is-active &::before {
+      transform: rotate(-45deg);
+    }
+
+    .select-box.is-active &::after {
+      transform: rotate(45deg);
+    }
+  }
+
+  &__wrap {
+    display: none;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    z-index: 10;
+
+    .select-box.is-active & {
+      display: flex;
+    }
+  }
+
+
+  &__item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #7B7B7B;
+    padding: 15px 40px;
+
+    &:hover {
+      background: #F7F5F5;
+    }
+  }
+}
