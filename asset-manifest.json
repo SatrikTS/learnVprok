@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/learnVprok/static/css/main.848385ce.chunk.css",
+    "main.js": "/learnVprok/static/js/main.032bf0b2.chunk.js",
+    "main.js.map": "/learnVprok/static/js/main.032bf0b2.chunk.js.map",
+    "runtime-main.js": "/learnVprok/static/js/runtime-main.eeaf8e13.js",
+    "runtime-main.js.map": "/learnVprok/static/js/runtime-main.eeaf8e13.js.map",
+    "static/js/2.94639644.chunk.js": "/learnVprok/static/js/2.94639644.chunk.js",
+    "static/js/2.94639644.chunk.js.map": "/learnVprok/static/js/2.94639644.chunk.js.map",
+    "index.html": "/learnVprok/index.html",
+    "static/css/main.848385ce.chunk.css.map": "/learnVprok/static/css/main.848385ce.chunk.css.map",
+    "static/js/2.94639644.chunk.js.LICENSE.txt": "/learnVprok/static/js/2.94639644.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eeaf8e13.js",
+    "static/js/2.94639644.chunk.js",
+    "static/css/main.848385ce.chunk.css",
+    "static/js/main.032bf0b2.chunk.js"
+  ]
+}
