@@ -33,7 +33,7 @@ code {
 .main {
   background: #E5E5E5;
   padding: 51px 0;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .card-group {

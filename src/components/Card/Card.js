@@ -22,6 +22,9 @@ const Card = (props) => {
         props.removeItem(index, props.cardId)
     }
 
+    const handleChange = (event) => {
+        setBuyPrice(event.target.value);
+    }
 
     return (
         <div className="card">
@@ -58,7 +61,9 @@ const Card = (props) => {
                                 <span className="count-button__btn count-button__btn--plus plus" onClick={incrementCounter}>+</span>
                             </div>
                         </div>
-                        <div className="card__line-price">{buyPrice}</div>
+                        <div className="card__line-price">
+                            <input className="card__line-input" type="text" value={buyPrice} onChange={handleChange}/> $
+                        </div>
                         <button className="card__button" onClick={addData}>Добавить</button>
                     </div>
                 </div>

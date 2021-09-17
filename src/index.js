@@ -14,14 +14,14 @@ const App = () => {
             cardId: 1,
             listData: [
                 {
-                    count: 1,
-                    price: 32,
-                    sum: 32
+                    count: 10,
+                    price: 100,
+                    sum: 1000
                 },
                 {
-                    count: 10,
-                    price: 72,
-                    sum: 720
+                    count: 20,
+                    price: 90,
+                    sum: 1820
                 }
             ]
         },
@@ -89,7 +89,7 @@ const App = () => {
                             )
                         }
                     </div>
-                    <Tabs></Tabs>
+                    <Tabs data={cardData}></Tabs>
                 </div>
             </div>
         </div>
