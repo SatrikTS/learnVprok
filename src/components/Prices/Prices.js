@@ -3,12 +3,11 @@ import {useState} from "react";
 
 const Prices = (props) => {
     const data = props.pricesList;
-    console.log(data)
     return (
         <div className="prices">
             {data.average &&
                 <span className="prices__caption">
-                    Средняя цена позиции: 207,5 $
+                    Средняя цена позиции: {props.averagePrice}
                 </span>
             }
             <div className="prices__inputs">
